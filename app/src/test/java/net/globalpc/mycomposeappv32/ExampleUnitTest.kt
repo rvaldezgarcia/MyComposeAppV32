@@ -16,7 +16,12 @@ class ExampleUnitTest {
     }
 
     @Test
-    fun threePlusthree_equalsSix() {
+    fun threePlusThree_equalsSix() {
         assertEquals(6,3+3)
+    }
+
+    @Test
+    fun threePlusFour_equalsSeven() {
+        assertEquals(7, 3+4)
     }
 }
