@@ -1,5 +1,6 @@
 package net.globalpc.mycomposeappv32
 
+import net.globalpc.mycomposeappv32.dto.Plant
 import org.junit.Test
 
 import org.junit.Assert.*
