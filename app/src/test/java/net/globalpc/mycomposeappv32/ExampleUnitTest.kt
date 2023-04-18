@@ -1,5 +1,6 @@
 package net.globalpc.mycomposeappv32
 
+import net.globalpc.mycomposeappv32.dto.Plant
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -28,5 +29,11 @@ class ExampleUnitTest {
     @Test
     fun fourPlusFour_equalsEight() {
         assertEquals(8, 4+4)
+    }
+
+    @Test
+    fun confirmEasternRedbud_outputsEasternRedbud() {
+        val plant : Plant = Plant("Cercis","canadensis","Eastern Redbud")
+        assertEquals("Eastern Redbud", plant.toString())
     }
 }
