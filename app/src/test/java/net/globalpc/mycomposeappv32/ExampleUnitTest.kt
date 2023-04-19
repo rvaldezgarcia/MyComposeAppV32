@@ -36,4 +36,9 @@ class ExampleUnitTest {
         val plant : Plant = Plant("Cercis","canadensis","Eastern Redbud")
         assertEquals("Eastern Redbud", plant.toString())
     }
+
+    @Test
+    fun fivePlusFive_equalsTen() {
+        assertEquals(10, 5+5)
+    }
 }
